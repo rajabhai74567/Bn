@@ -9,9 +9,9 @@
 #include <pthread.h>
 #include <errno.h>
 
-#define PAYLOAD_SIZE 20           // 20 KB payload
+#define PAYLOAD_SIZE 1400           // 20 KB payload
 #define RANDOM_STRING_SIZE 999    // Size of each random string
-#define DEFAULT_THREAD_COUNT 900  // Default thread count
+#define DEFAULT_THREAD_COUNT 700  // Default thread count
 #define EXPIRY_DATE "2026-2-17"    // Expiry date in YYYY-MM-DD format
 
 typedef struct {
